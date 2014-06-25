@@ -1,0 +1,33 @@
+{
+  "author": "Alex \u003cdtk@dtk.me\u003e",
+  "checksums": {
+    "Modulefile": "734c370c1cf4f13a2b192f2a2f949499",
+    "README.markdown": "8d1e48602b947d5817db54957c4b075e",
+    "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+    "TODO.markdown": "19cbea3338f05dfb174a9e4aa8a257d3",
+    "manifests\\config.pp": "ce6cfd5ab22ad85144057b343039feaf",
+    "manifests\\init.pp": "fd006cb25f7da90b3b1b9f85974baef4",
+    "manifests\\install.pp": "fe575507ac84a1802442b29db983b4b9",
+    "manifests\\params.pp": "527523f1cb19a644b14929401184b86d",
+    "manifests\\service.pp": "385ec0ccc6d9ea6d5b5e5899a677c373",
+    "spec\\spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec\\spec_helper.rb": "3ea886dd135e120afa31e0aab12e85b0",
+    "templates\\debian.sshd_config.erb": "6dc89348462def4587e3ebe313c7390d",
+    "templates\\redhat.sshd_config.erb": "41eb93700be1781ca81dfc6950922650",
+    "tests\\init.pp": "0d9f10d4df2abeebfe926c359c64d3e6"
+  },
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "\u003e\u003d4.0.0"
+    }
+  ],
+  "description": "This module allows you to configure the openssh server using puppet",
+  "license": "ASL 2.0",
+  "name": "pennycoders-openssh",
+  "project_page": "https://github.com/pennycoders/puppet-openssh",
+  "source": "https://github.com/pennycoders/puppet-openssh",
+  "summary": "Puppet OpenSSH Module",
+  "types": [],
+  "version": "1.0.30"
+}
